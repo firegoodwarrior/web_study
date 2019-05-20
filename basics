@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>웹 페이지 제목</title>
+<meta charset="utf-8" />
+<meta name = "keywords" content:"HTML, CSS, jQuery, PHP"/>
+<!--어떤 키워드를 쓸까?-->
+<meta name = "description" content:"HTML작성시 많은 태그를 사용합니다""/>
+<!--묘사-->
+</head>
+<body>
+  <p>P태그활용 Hello World</p><br /> <!-- 일반 paragraph 입력-->
+  <b>B태그활용 Hello World</b><br /> <!-- 굵은 paragraph 입력-->
+  <i>i태그활용 Hello World</i><br /> <!-- 이탤릭체 paragraph 입력-->
+  <u>u태그활용 Hello World</u><br /> <!-- 밑줄 paragraph 입력-->
+  <strike>strike태그 활용 Hello World</strike><br /> <!-- 취소선 paragraph 입력-->
+  <h1>h1태그활용 Hello World</h1><br /> <!-- h1~h6 크기 변화해서 paragraph 입력-->
+  <h2>h2태그활용 Hello World</h2><br />
+  <h3>h3태그활용 Hello World</h3><br />
+  <h4>h4태그활용 Hello World</h4><br />
+  <h5>h5태그활용 Hello World</h5><br />
+  <h6>h6태그활용 Hello World</h6><br />
+  <em>em태그활용</em> Hello World<br /><br /> <!-- 강조 paragraph 입력-->
+  ruby태그활용<ruby>金<rt>김태현의 김</rt></ruby><br /> <!-- 한자 뜻,음 paragraph 입력-->
+  <br />
+  <a href ="https://gall.dcinside.com/baseball_new8" target="_blank"> <!-- 새 창을 열어서 이동-->
+  <img src = "http://img.etoday.co.kr/pto_db/2015/06/20150620095508_658585_520_585.jpg" width="200" height="240" alt="양준혁"/><br />
+  </a>이미지를 클릭해 이동<br />
+  <a href ="http://gall.dcinside.com/baseball_new8" target="_blank">타 사이트 주소로 새창열어 이동</a><br />
+  <a href ="http://gall.dcinside.com/baseball_new8" target="_self">타 사이트 주소로 이동</a><br />
+  <a href ="./helloworld.html" target="_blank">타 사이트 주소로 새창열어 이동</a><br />
+  <a href ="./helloworld.html" target="_self">타 사이트 주소로 이동</a><br />
+
+</body>
+</html>
