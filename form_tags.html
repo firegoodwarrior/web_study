@@ -41,16 +41,63 @@
     <form name="signUp" method="post" action="signup.php">
         아이디<input type="text" name="userId" value="" />
         <input type="reset" value="다시 입력" />
-      
+</from>
+
 <h1>input tag's type is submit</h1>
 	<form name="signUp" method="post" action="signup.php">
 		<input type="text" name="userId" value="myid" />
 		<input type="submit" value="완료" />
 
+</from>
  <h1>input tag's type is email</h1>
 	<form name="signUp" method="post" action="signup.php">
 		email : <input type="email" />
 		<input type="submit" value="submit" />
-    
+</from>
+<h1>input tag's type is url</h1>
+	<form name="signUp" method="post" action="signup.php">
+		<input type="url" />
+		<input type="submit" value="submit" />
+</from>
+<h1>input tag's type is number</h1>
+	<form name="signUp" method="post" action="signup.php">
+		<input type="number" pattern="\d*" />
+		<input type="submit" value="submit" />
+</from>
+<h1>input tag's type is color</h1>
+	<form name="signUp" method="post" action="signup.php">
+		<input type="color" />
+</from>
+<h1>input tag's type is range</h1>
+	<input type="range" min="0" max="100" value = "50" step="10" />
+</from>
+<h1>input tag's Placeholder</h1>
+		<input type="text" placeholder="아이디 입력" />
+</from>	
+<!--- label tag 사용법
+<label for="input tag id 속성값">명칭</label>
+<input type="radio" name="gd" value="w" id="이 페이지에서 사용할 고유한 이름"/>
+--->
+<h1>label tag</h1>
+<p>성별 선택</p>
+<label for="woman">여성</label>
+<input type="radio" name="gender" value="w" id="woman"/>
+<label for="man">남성</label>
+<input type="radio" name="gender" value="m" id="man"/>
+<h1> select tag </h1>
+<select name="birthMonth">
+		<option value="1">Jan</option>
+		<option value="2">Feb</option>
+		<option value="3">Mar</option>
+		<option value="4">Api</option>
+		<option value="5">Mar</option>
+		<option value="6">Jun</option>
+		<option value="7">Jul</option>
+		<option value="8">Aug</option>
+		<option value="9">Sep</option>
+		<option value="10">Oct</option>
+		<option value="11">Nov</option>
+		<option value="12">Dec</option>
+</select>
 </body>
 </html>
